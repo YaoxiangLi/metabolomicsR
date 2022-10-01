@@ -54,7 +54,7 @@ Suggests:
     crayon,
     hrbrthemes,
     hmdbQuery
-RoxygenNote: 7.1.2
+RoxygenNote: 7.2.1
 biocViews: Software, Metabolomics, MassSpectrometry, Regression, Normalization, QualityControl
 LazyData: FALSE
 VignetteBuilder: knitr

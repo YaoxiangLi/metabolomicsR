@@ -106,34 +106,61 @@
     <h2 id="arguments">Arguments<a class="anchor" aria-label="anchor" href="#arguments"></a></h2>
     <dl><dt>object</dt>
 <dd><p>A Metabolite object.</p></dd>
+
+
 <dt>phenoData</dt>
 <dd><p>A data.table with outcome and covariates. If `phenoData` is NULL, `@sampleData` will be used.</p></dd>
+
+
 <dt>model</dt>
 <dd><p>Specify a regression model. See <code><a href="fit_lm.html">fit_lm</a></code> for more details. 'auto' can be used to infer 'lm' or 'logistic' (with only 0, 1, and NA).</p></dd>
+
+
 <dt>outcome</dt>
 <dd><p>Column name of the outcome variable.</p></dd>
+
+
 <dt>covars</dt>
 <dd><p>Column names of covariates.</p></dd>
+
+
 <dt>factors</dt>
 <dd><p>Variables to be treated as factor.</p></dd>
+
+
 <dt>feature_name</dt>
 <dd><p>A vector of selected metabolites to run. If both feature_name and random_select are NULL, will run regression for all features.</p></dd>
+
+
 <dt>time</dt>
 <dd><p>Column name of survival time, used in cox regression, see <code><a href="https://rdrr.io/pkg/survival/man/coxph.html" class="external-link">coxph</a></code> for more details.</p></dd>
+
+
 <dt>verbose</dt>
 <dd><p>Print log information.</p></dd>
+
+
 <dt>ncpus</dt>
 <dd><p>Number of CPUS for parallele job.</p></dd>
+
+
 <dt>p.adjust.method</dt>
 <dd><p>Adjust for P value method, see <code><a href="https://rdrr.io/r/stats/p.adjust.html" class="external-link">p.adjust</a></code>.</p></dd>
+
+
 <dt>...</dt>
 <dd><p>Further arguments passed to regression model.</p></dd>
+
+
 <dt>formula</dt>
 <dd><p>A character or formula object to fit model (only used in `regression_each`)</p></dd>
+
 </dl></div>
     <div class="section level2">
     <h2 id="value">Value<a class="anchor" aria-label="anchor" href="#value"></a></h2>
-    <p>term estimate std.error statistic p.value n outcome p.value.adj.</p>
+    
+
+<p>term estimate std.error statistic p.value n outcome p.value.adj.</p>
     </div>
     <div class="section level2">
     <h2 id="note">Note<a class="anchor" aria-label="anchor" href="#note"></a></h2>
@@ -229,8 +256,7 @@
 </div>
 
 <div class="pkgdown-footer-right">
-  <p></p><p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a>
-2.0.2.</p>
+  <p></p><p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.0.6.</p>
 </div>
 
     </footer></div>

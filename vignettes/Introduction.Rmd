@@ -756,8 +756,16 @@ fit
 - Yousri,N.A. et al. (2015) A systems view of type 2 diabetes-associated metabolic perturbations in saliva, blood and urine at different timescales of glycaemic control. Diabetologia, 58, 1855–1867.
 
 
-<br><br>
+<br>
 
+
+# How to cite metabolomicsR:
+
+> Han, Xikun, and Liming Liang. 2022. “metabolomicsR: A Streamlined Workflow to Analyze Metabolomic Data in R.” Bioinformatics Advances 2 (1): vbac067. https://doi.org/10.1093/bioadv/vbac067
+
+
+<br>
+<br>
 
 
 <details>
